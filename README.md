@@ -1,3 +1,3 @@
 codeacademy-python2
 ===================
-Sea Battle 
+Learne to code !!! 
