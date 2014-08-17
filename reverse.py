@@ -1,10 +1,9 @@
 def reverse(x):
-    lst = []
-    for l in x:
-        lst.append(l)
-    for b in range(0, len(lst)):
-        letter = len(lst)
-        while letter > 0:
-            letter -=  1
-            print lst[letter],        
+    result = ""
+    l = (len(x)) - 1
+    while l >= 0:
+        result += x[l]
+        l -= 1
+        print result
+    return result
 print reverse("Python!")
